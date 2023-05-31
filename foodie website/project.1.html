@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap.border</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+    <script src="./bootstrap-4.3.1-dist/css/bootstrap.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+    .a {
+        background-image: url("n3.png");
+        height: 97vh;
+    }
+
+    .b {
+        margin-top: 50px;
+        font-size: 50px;
+        text-shadow: 28px 20px 14px black;
+    }
+
+    .c {
+        font-size: 45px;
+        color: white;
+    }
+
+    .d {
+        font-weight: bold;
+        font-size: 23px;
+    }
+
+    .e {
+        font-size: 40px;
+    }
+
+    .f {
+        font-size: 28px;
+    }
+
+    .g {
+        background-color: #F3F7F3;
+    }
+
+    .h {
+        border-radius: 50%;
+    }
+
+    .i {
+        width: 150px;
+        height: 150px;
+    }
+
+    .j {
+        margin-left: 10px;
+    }
+
+    .k {
+        border: none;
+        cursor: pointer;
+    }
+
+    .l {
+        width: 170px;
+        height: 170px;
+    }
+    .m {
+        float: right;
+        margin-top: 10px;
+    }
+    .n {
+        font-size: 20px;
+        color: green;
+    }
+    .o {
+        font-weight: bold;
+    }
+    .p {
+        border-radius: 20px;
+    }
+    .q {
+        transition: box-shadow 0.3s;
+    }
+    .q:hover{
+        border: 2px solide gray;
+        border-radius: 20px;
+        padding: 10px;
+        border: 1px solid rgba(248, 238, 238, 0.575);
+      box-shadow: 1px 1px 5px gray;
+      cursor: pointer;
+    }
+    
+</style>
+</head>
+
+<body>
+    <div class="container-fuild">
+        <div class="a">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="n4.jpg" width="120px"
+                        class="img-responsive img-thumbnail"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link d" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link d" href="#">Features</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link d" href="from.html">Login</a>
+                        </li>
+                        <li class="nav-item dropdown  active d">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contact us
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#"><i class="fa fa-whatsapp"
+                                        style="font-size:24px">&nbsp;Whatapps</i></a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-instagram"
+                                        style="font-size: 24px">&nbsp;Instagram</i></a>
+                                <a class="dropdown-item" href="#"><i class="fa fa-facebook"
+                                        style="font-size:24px">&nbsp;Facebook</i></a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link d" href="#"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-2 p-2">
+
+                </div>
+                <div class="col-6 m-5">
+                    <div class="m-3">
+
+                    </div>
+                </div>
+                <div class="col-2 p-2">
+
+                </div>
+                <div class="col-2 p-2">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center text-light b">
+                    <b><i>FOODIE</i></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col c text-center">
+                    Find the best restaurants,<br> cafés and bars in India
+                </div>
+            </div>
+
+
+        </div>
+        <div class="row">
+            <div class="col text-center mt-3 e">
+                Popular locations in <img src="n5.jpg" width="100px" height="50px" class="img-responsive img-thumbnail">
+                India
+            </div>
+        </div>
+        <br>
+        <div class="g">
+            <br>
+            <div class="container">
+                <div class="row">
+                    <div class="col f">
+                        &nbsp;Inspiration for your first order
+                    </div>
+                </div>
+                <br>
+                <div id="product-carousel" class="carousel slide" data-ride="carousel">
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+
+                                <div class="card ml-5 k g">
+                                    <img src="p1.jpeg" class="card-img-top h l" alt="Product 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Pizaa</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p2.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Biryani</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p3.webp" class="card-img-top h l" alt="Product 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Burger</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p4.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">chicken</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p5.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Fried rice</h5>
+
+                                    </div>
+                                </div>
+
+                                <div class="card ml-5 k g">
+                                    <img src="p7.webp" class="card-img-top h l" alt="Product 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Idli</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p8.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Thali</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p9.webp" class="card-img-top h l" alt="Product 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Rolls</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p10.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Manchuriyan</h5>
+
+                                    </div>
+                                </div>
+                                <div class="card ml-5 k g">
+                                    <img src="p11.webp" class="card-img-top h l" alt="Product 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-center">Dhoosa</h5>
+
+                                    </div>
+                                </div>
+
+                                <a class="carousel-control-prev" href="#product-carousel" role="button"
+                                    data-slide="prev" class="bg-primary">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#product-carousel" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+
+
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col f shadow mb-2 bg-white">
+                    &nbsp;Top brands for you
+                </div>
+            </div>
+            <br>
+
+            <div id="product-carousel" class="carousel slide" data-ride="carousel">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+
+                            <div class="card ml-5 k ">
+                                <img src="q1.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">McDonald's</h5>
+                                    <h5 class="text-center">5 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q2.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">La Pino'z Pizza</h5>
+                                    <h5 class="text-center">12 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q3.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Domino's Pizza</h5>
+                                    <h5 class="text-center">23 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q4.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Subway</h5>
+                                    <h5 class="text-center">20 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q5.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Burger King</h5>
+                                    <h5 class="text-center">13 min</h5>
+                                </div>
+                            </div>
+
+                            <div class="card ml-5 k ">
+                                <img src="q6.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Pizaa hut</h5>
+                                    <h5 class="text-center">30 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q7.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">KFC</h5>
+                                    <h5 class="text-center">2 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q8.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 1">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">meraki</h5>
+                                    <h5 class="text-center">22 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q9.webp" class="card-img-top h l shadow mb-2 bg-white" alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center"> Ice Cream</h5>
+                                    <h5 class="text-center">25 min</h5>
+                                </div>
+                            </div>
+                            <div class="card ml-5 k ">
+                                <img src="q10.webp" class="card-img-top h l shadow mb-2 bg-white " alt="Product 2">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">holte</h5>
+                                    <h5 class="text-center">23 min</h5>
+
+                                </div>
+                            </div>
+
+                            <a class="carousel-control-prev" href="#product-carousel" role="button"
+                                data-slide="prev" class="bg-primary">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#product-carousel" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col f">
+                    &nbsp;Best Food in Mumbai
+                </div>
+            </div> 
+            <br><br>
+            <div class="row">
+                <div class="col-md-4 ">
+                  <div class="card k q">
+                    <img src="r1.webp" class="card-img-top img-responsive p" alt="Product 1">
+                    <div class="card-body">
+                      <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                      <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                      <hr color="black">
+                    </div>
+                
+                  </div>
+                  
+                </div>
+
+                <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r2.png" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                      </div>
+                  
+                    </div>
+                    
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r3.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r4.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r5.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r6.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r7.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r8.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r9.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r10.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r11.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r12.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r13.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r14.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r15.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+
+
+                  <div class="col-md-4 ">
+                    <div class="card k q">
+                      <img src="r16.webp" class="card-img-top img-responsive p" alt="Product 1">
+                      <div class="card-body">
+                        <h5 class="card-title">Kwality Wall’s <i class="fa fa-star-half-o m n"></i><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span><span class="fa fa-star m n"></span></h5>
+                        <p class="card-text">Ice Cream, Desserts<div class="m o">₹300 for one</div></p>
+                        <hr color="black">
+                        <br>
+                        <hr>
+                        750+ orders placed from here recently
+                      </div>
+                
+                    </div>
+                
+                  </div>
+        </div>
+        
+</body>
+
+</html>

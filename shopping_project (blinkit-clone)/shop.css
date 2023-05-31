@@ -1,0 +1,339 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+#container1{
+	background-color: white;
+	width: 1365px;
+	height: 110px;
+	border: 2px;
+	box-shadow: 2px 2px 5px gray;
+	position: fixed;
+	top: 0px;
+	
+ }
+ #container1-1{
+	 width: 250px;
+	 height: 90px;
+	 border: 1px;
+	 box-shadow: 0px 0px 2px gray;
+	 padding: 10px;
+	 float: left;
+	 padding: 10px;
+	 text-align: center;
+ }
+ 
+.logo::before{
+content: "SU";
+font-size: 70px;
+margin: 0;
+padding: 0;
+font-family: Shantell Sans;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: orange;
+-webkit-text-fill-color: black;
+text-shadow: 3px 3px 5px lightgreen;
+}
+.logo::after{
+content: "RAJ";
+font-size: 60px;
+margin: 0;
+padding: 0;
+font-family: Shantell Sans;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: orange;
+-webkit-text-fill-color: black;
+text-shadow: 3px 3px 5px lightgreen;
+}
+
+#container1-0{
+	 width: 300px;
+	 height: 105px;
+	 float: left;
+	 border: 1px solid red;
+	 border: none;
+ }
+.search-box{
+  border: 0.5px solid gray;
+  box-shadow: 0px 0px 5px gray;
+  border-radius: 10px;
+  width: 450px;
+  height: 40px;
+  float: left;
+  margin-top: 25px;
+}
+.search input[type=text] {
+  font-size: 20px;
+  width: 250px;
+  border: none;
+  margin-left: 20px;
+  margin-top: 8px;
+  caret-color: red;
+  border: none;
+  outline: none;
+  
+}
+ #container1-00{
+	 width: 450px;
+	 height: 60px;
+	 float: left;
+	 border: 1px solid red;
+	 border: none;
+ }
+ #container1-000{
+	 width: 80px;
+	 height: 60px;
+	 float: left;
+	 padding: 10px 10px;
+	 text-align: center;
+	 border: 1px solid red;
+	 border: none;
+	 margin-left: 15px;
+	 margin-top: 15px;
+ }
+ #container1-000 button{
+	 background-image: linear-gradient(to top,red 10%,skyblue 50%);
+	 font-size: 30px;
+	 border:1px black;
+	 border-radius: 10px;
+	 box-shadow: 2px 2px 10px gray;
+ }
+ #container1-0000{
+	 width: 150px;
+	 height: 60px;
+	 float: left;
+	 padding: 10px 10px;
+	 text-align: center;
+	 margin-top:10px;
+	 margin-left: 15px;
+	 border: 1px solid red;
+	 border: none;	 
+ }
+  #container1-0000 button{
+	 background-image: radial-gradient(farthest-side at left bottom,red,yellow);
+	 font-size: 30px;
+	 border:1px black;
+	 border-radius: 10px;
+	 box-shadow: 2px 2px 10px gray;
+	 padding: 10px;
+
+ }
+ #container1-2{
+	 width: 1075px;
+	 height: 90px;
+	 border: 1px;
+	 box-shadow: 0px 0px 2px gray;
+	 padding: 10px;
+	 float: left;
+
+ }
+ 
+ #container2{
+	 margin-left: 12px;
+	width: 1350px;
+	height: 800px;
+	border: 11px;
+	box-shadow: 0px 0px 0.5px gray;
+ }
+ .i{
+	padding: 7px;
+	margin: auto;
+	text-align: center;
+	background-color: lightgreen;
+	border-radius: 40px;
+}
+ button{
+	background-color: lightgreen;
+	color: black;
+	padding: 8px 14px;
+	border: 1px solid green;
+	border-radius: 10px;
+	cursor: pointer;
+}
+ .s{
+	margin-left:10px;
+	padding: 7px;
+	width: 1300px;
+	border: 2px solid black;
+	border-radius: 20px;
+	background-color: black;
+	overflow: auto;
+	}
+.p{
+	padding: 10px;
+	color: white;
+}
+.s:hover{
+	color: black;
+	display: block;
+	cursor: wait;
+	border-color: red;
+}
+.u{
+  background-color: white;
+  color: black;
+  padding: 6px 6px;
+  border-radius: 10px;
+  margin-left: 70px;
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  text-align: center;
+}
+.u:hover{
+	background-color: lightgreen;
+	color: white;
+	border: 1px solid green;
+}
+.blackfriday{
+	margin: 15px;
+    border: 1px solid green;
+    float: left;
+    width: 300px;
+	height: 249.5px;
+	border-radius: 10px;
+	overflow: auto;
+	background-color: lightgreen;
+}
+.blackfriday:hover {
+    border: 1px solid red;
+}
+.snacks{
+	color: black;
+	clear: left;
+	margin-left: 10px;
+}
+
+.snack{
+	margin: 15px;0
+	border: 1px solid green;
+	float: left;
+	width: 200px;
+	height: 330px;
+	border-radius: 10px;
+	overflow: auto;
+}
+h6{
+	color: gray;
+text-align: center;
+	margin: 0px;
+}
+p{
+	color: darkblack;
+	text-align: center;
+	margin: 0px;
+}
+h4{
+	color: darkblack;
+	margin: 20px;
+}
+#plus{
+  background-color: white;
+  color: black;
+  padding: 3px 3px;
+  border-radius: 8px;
+  border: 1px solid lightgreen;
+  cursor: pointer;
+  width: 60px;
+  text-align: center;
+  margin-left: 105px;
+  margin-top: opx;
+}
+#plus:hover{
+	background-color: lightgreen;
+}
+.snack:hover{
+	border: 1px solid red;
+}
+.snack_text{
+	text-align: center;
+	padding: 4px;
+}
+.kurkureji{
+	clear: left;
+	margin-left: 10px;
+}
+.kurkure{
+	margin: 15px;
+	border: 1px solid green;
+	float: left;
+	width: 200px;
+	height: 330px;
+	border-radius: 10px;
+	overflow: auto;
+}	
+.kurkure:hover{
+	border: 1px solid red;
+}
+.cold-drinkji{
+margin-left: 10px;
+clear: left;
+}	
+.cold-drink{
+	margin: 15px;
+	border: 1px solid green;
+	float: left;
+	width: 200px;
+	height: 330px;
+	border-radius: 10px;
+	overflow: auto;
+}	
+.cold-drink:hover{
+border: 1px solid red;
+}	
+.r-img{
+	margin: 15px;
+	cursor: pointer;
+}
+.hh{
+	margin: 10px;
+	cursor: pointer;
+}
+.stock{
+	color: red;
+	text-align: center;
+	margin-top: 25px;
+	padding: 15px;
+	font-size: 25px;
+}
+.lastbox{
+	clear: left;
+	background-color: #F8F9F9;
+	padding: 30px;
+	border: 1px
+}
+span{
+	padding: 10px;	
+}
+.end{
+	margin-left:200px;
+	clear: left;
+	position: static;
+	font-family: lucidia calligraphy;
+    font-size: 1.5cm;
+    color: solid red;
+    text-shadow: 5px 8px 7px green;
+}
+*::selection{
+	color: red;
+	background-color: yellow;
+}
+.extra{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	border: 2px solid bround;
+	background-color: skyblue;
+	border-radius: 10px;
+	box-shadow: 3px 3px 12px gray;
+	padding: 10px;
+	color: white;
+	cursor: pointer;
+	margin-left: 20px;
+	clear: left;
+}
+.extra:hover{
+	color: orange;
+	background-color: black;
+}

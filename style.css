@@ -1,0 +1,34 @@
+.aa{
+    border-radius: 30px 0px 0px 30px;
+    background-color: #3a3c4f;
+}
+.bb{
+    border-radius: 0px 30px 30px 0px;
+}
+.cc{
+    border-radius: 50%;
+}
+.dd{
+    color: white;
+font-weight: bold;
+
+}
+.ee{
+    box-shadow: 1px 1px 5px gray;
+}
+.ff{
+    margin-left: 10px;
+}
+.gg{
+    margin-left: 40px;
+}
+.hh{
+    color: black;
+    padding: 20px;
+    margin: auto;
+    font-weight: bold;
+}
+.ii{
+    font-weight: bold;
+    color: black;
+}
